@@ -1,0 +1,26 @@
+.card {
+  background-color: var(--white);
+  width: 305px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.card .card__image {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card .card__title h1 {
+  color: var(--dark-blue);
+  text-align: center;
+  padding: 0;
+  margin: 20px 0px 15px 0px;
+}
+
+.card .card__body p {
+  text-align: center;
+  color: var(--grayish-blue);
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+}
